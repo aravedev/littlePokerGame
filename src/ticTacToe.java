@@ -36,6 +36,8 @@ public class ticTacToe {
             }else if(count==-3){
                 System.out.println("O wins!");
                 break;
+            }else if(i==8){
+                System.out.println("Its a tie!");
             }
         }
 
